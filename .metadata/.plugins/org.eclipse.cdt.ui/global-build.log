@@ -1,0 +1,18 @@
+21:01:37 **** Build of configuration Debug for project Hello ****
+make all 
+Building file: ../src/Hello.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Hello.d" -MT"src/Hello.o" -o "src/Hello.o" "../src/Hello.cpp"
+Finished building: ../src/Hello.cpp
+ 
+Building target: Hello
+Invoking: GCC C++ Linker
+g++  -o "Hello" ./src/Hello.o   
+Finished building target: Hello
+ 
+21:01:44 **** Incremental Build of configuration Debug for project Hello ****
+make all 
+make: rien à faire pour « all ».
+21:06:03 **** Build of configuration Debug for project Hello ****
+make all 
+make: rien à faire pour « all ».
